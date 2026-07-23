@@ -230,8 +230,8 @@ Executing `jmp esp` then jumps directly to the shellcode that immediately follow
 
 I personally think that the nightmare's code is more accessible because it only uses the gadgets that are present in the binary, however the downside of it is that it's takes a lot of effort to understand how the exploit works. 
 
-The writeup from ctf-wiki is intuitive, but from my perspective I don't think someone who doesn't have any experience will be able to write `asm('sub esp, 0x28; jmp esp')` without any hints. 
+The writeup from ctf-wiki is intuitive, but from my perspective I don't think someone who doesn't have any experience will be able to contrive `asm('sub esp, 0x28; jmp esp')` on their own without any hints. 
 
-Nightmare also extensively uses gdb so it would be great to get comfortable with gdb. 
+Nightmare also extensively uses gdb, so if you're not accustomed to using gdb it would be great to get used to it. 
 
-In conclusion they both have some pros and cons. 
+In conclusion nightmare and ctfwiki both seem to have some pros and cons. 
